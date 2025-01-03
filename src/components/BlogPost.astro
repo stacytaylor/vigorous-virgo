@@ -1,6 +1,6 @@
 ---
 import MarkdownPostLayout from "../layouts/MarkdownPostLayout.astro";
-const { title, url } = Astro.props;
+const { title, url, description } = Astro.props;
 ---
 
-<li><a href={url}>{title}</a></li>
+<li><a href={url}>{title}</a>{description}</li>

@@ -13,7 +13,11 @@ const pageTitle = "My Astro Learning Blog";
   <ul>
     {
       allPosts.map((post: any) => (
-        <BlogPost url={`/posts/${post.id}/`} title={post.data.title} />
+        <BlogPost
+          url={`/posts/${post.id}/`}
+          title={post.data.title}
+          description={post.data.description}
+        />
       ))
     }
   </ul>

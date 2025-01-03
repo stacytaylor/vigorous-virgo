@@ -1,8 +1,8 @@
 ---
 
-title: 'My First Blog Post'
+title: 'Welcome'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
+description: 'Everything is fine.'
 
 tags: ["astro", "blogging", "learning in public"]
 ---

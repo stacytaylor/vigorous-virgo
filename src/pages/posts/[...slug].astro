@@ -15,5 +15,7 @@ const { Content } = await render(post);
 ---
 
 <MarkdownPostLayout frontmatter={post.data}>
-  <Content />
+  <div class="prose prose-headings:text-amber-300">
+    <Content />
+  </div>
 </MarkdownPostLayout>
